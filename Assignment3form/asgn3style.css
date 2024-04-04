@@ -1,0 +1,197 @@
+* {
+    font-family: Arial;
+    padding: 0;
+}
+
+body {
+    background-color: #CCCFD3;
+}
+
+/* main div */
+#mainDiv {
+    margin: auto;
+    width: 60%;
+    height: fit-content;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0px 8px 5px #888888;
+
+}
+
+/* Top blue div */
+#topdiv {
+    text-align: center;
+    background-color: #12458D;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 135px;
+    width: 100%;
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    padding-top: 23px;
+}
+
+
+
+/* **************************** */
+/* Form and body css */
+/* Classes style */
+/* **************************** */
+
+/* All Section Divs Style */
+.sectiondivs {
+    width: fit-content;
+    padding: 2px 10px 20px 10px;
+}
+
+/* For the bigger txt above the input boxes */
+.txt1 {
+    font-family: sans-serif;
+    line-height: 45px;
+    font-size: 16px;
+    color: #12458D;
+}
+/* For the same styling in both type of input boxes */
+.Ipfull,
+.Ipmid {
+    border: 1px solid #4D74AA;
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding: 5px 3px 7px 2px;
+    font-size: 15px;
+}
+
+/* For Bigger input boxes */
+.Ipfull {
+    width: 290px;
+    height: 23px;
+}
+
+/* For Medium input boxes */
+.Ipmid {
+    width: 142px;
+    height: 23px;
+}
+
+/* For Radio btns texts */
+.radiotxt {
+    color: #5382c4;
+}
+
+.radiotxt:hover {
+    cursor: pointer;
+}
+
+.btnradio:hover {
+    cursor: pointer;
+}
+
+
+/* **************************** */
+/* IDs Style */
+/* **************************** */
+#content {
+    padding-top: 25px;
+    padding-right: 55px;
+    padding-bottom: 25px;
+    padding-left: 55px;
+}
+
+/* input box ids */
+#Cfname:hover,
+#Clname:hover,
+#acnum:hover,
+#tel:hover,
+#email1:hover,
+#Afname:hover,
+#Alname:hover,
+#email2:hover,
+#date:hover,
+#sig:hover {
+    box-shadow: 0px 0px 0px 2px #7f9bbe;
+}
+
+/* Sections ids */
+#sec1 {
+    float: left;
+}
+
+#sec2 {
+    float: right;
+}
+
+#sec3 {
+    float: left;
+}
+
+#sec4 {
+    float: right;
+}
+
+#sec5 {
+    float: left;
+    width: 613px;
+}
+
+#actype2 {
+    margin-left: 200px;
+}
+
+#sec6 {
+    float: left;
+    width: 613px;
+}
+
+#TracT2 {
+    margin-left: 209px;
+}
+
+#TracT4 {
+    margin-left: 229px;
+}
+
+#sec7 {
+    float: left;
+}
+
+#sec8 {
+    float: right;
+}
+
+#sec9 {
+    float: left;
+}
+
+#sig {
+    border: 1px solid #4D74AA;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+/* Footer/submit */
+#bottomdiv {
+    text-align: center;
+    border-top: 1px solid #2462B9;
+    height: 90px;
+    width: 100%;
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+#submit {
+    width: 180px;
+    height: 50px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #12458D;
+    font-size: 18px;
+    color: white;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #052654;
+}

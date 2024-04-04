@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Request Form</title>
+    <link rel="stylesheet" href="asgn3style.css">
+</head>
+
+<body>
+    <div id="mainDiv">
+        <div id="topdiv">
+            <p>Trade Request Form</p>
+        </div>
+        <div id="content">
+            <form action="" id="formbody">
+                <!-- class txt1 so i can apply style to all main txt and small txt seprately -->
+                <!-- Every element of the from is its seperate div and ided in a numerical order(id="secN") and all of them have the same class for CSS styling-->
+                <!-- Divs for elements are of two types mid-div and full-div -->
+                <!-- Input boxes are also divided into 2 types Ipmid and Ipfull -->
+
+                <!-- Client Name Div start -->
+                <div id="sec1" class="sectiondivs" class="mid-div">
+                    <label class="txt1">Client Name</label><br>
+                    <input type="text" id="Cfname" class="Ipmid" required>
+                    <input type="text" id="Clname" class="Ipmid" required>
+                </div>
+                <!-- Client Name Div End -->
+
+                <!-- Account Number Div start -->
+                <div id="sec2" class="sectiondivs" class="mid-div">
+                    <label class="txt1">Account Number</label><br>
+                    <input type="text" id="acnum" class="Ipfull" required>
+                </div>
+                <!-- Account Number Div End -->
+
+                <!-- Phone Number Div start -->
+                <div id="sec3" class="sectiondivs" class="mid-div">
+                    <label class="txt1">Phone Number</label><br>
+                    <input type="tel" placeholder="(000) 000-0000" id="tel" class="Ipfull" required>
+                </div>
+                <!-- Phone Number Div End -->
+
+                <!-- Email Div start -->
+                <div id="sec4" class="sectiondivs" class="mid-div">
+                    <label class="txt1">Email</label><br>
+                    <input type="email" id="email1" class="Ipfull" required>
+                </div>
+                <!-- Email Div End -->
+
+                <!-- Account Type Div start -->
+                <div id="sec5" class="sectiondivs" class="full-div">
+                    <label class="txt1">Account Type</label><br>
+                    <input type="radio" name="actype" id="actype1" class="btnradio">
+                    <label for="actype1" class="radiotxt">Registered</label>
+
+                    <input type="radio" name="actype" id="actype2" class="btnradio">
+                    <label for="actype2" class="radiotxt">Non-registered</label>
+                </div>
+                <br>
+                <!-- Account Type Div End -->
+
+                <!-- Transaction Type Div start -->
+                <div id="sec6" class="sectiondivs" class="full-div">
+                    <label class="txt1">Transaction Type</label><br>
+                    <input type="radio" name="TracT" id="TracT1" class="btnradio">
+                    <label for="TracT1" class="radiotxt">Purchase</label>
+                    <input type="radio" name="TracT" id="TracT2" class="btnradio">
+                    <label for="TracT2" class="radiotxt">Redemption</label><br>
+                    <input type="radio" name="TracT" id="TracT3" class="btnradio">
+                    <label for="TracT3" class="radiotxt">Switch</label>
+                    <input type="radio" name="TracT" id="TracT4" class="btnradio">
+                    <label for="TracT4" class="radiotxt">Transfer</label><br>
+                    <input type="radio" name="TracT" id="TracT5" class="btnradio">
+                    <label for="TracT5" class="radiotxt">Other</label>
+                </div>
+                <!-- Transaction Type Div End -->
+
+                <!-- Advisor's Name Div start -->
+                <div id="sec7" class="sectiondivs" class="mid-div">
+                    <label class="txt1">Advisor's Name</label><br>
+                    <input type="text" id="Afname" class="Ipmid" required>
+                    <input type="text" id="Alname" class="Ipmid" required>
+                </div>
+                <!-- Advisor's Name Div End -->
+
+                <!-- Advisor's Email Div Start -->
+                <div id="sec8" class="sectiondivs" class="mid-div">
+                    <label class="txt1">Advisor's Email</label><br>
+                    <input type="email" id="email2" class="Ipfull" required>
+                </div>
+                <!-- Advisor's Email Div End -->
+
+                <!-- Date Div Start -->
+                <div id="sec9" class="sectiondivs" class="full-div">
+                    <label class="txt1">Date</label><br>
+                    <input type="date" id="date" class="Ipfull" required>
+                </div>
+                <!-- Date Div End -->
+
+                <!-- Client's Signature Div Start -->
+                <div id="sec10" class="sectiondivs" class="full-div">
+                    <label class="txt1">Client's Signature</label><br>
+                    <textarea name="clientsig" id="sig" cols="42" rows="7" placeholder="Sign Here"></textarea>
+                </div>
+                <!-- Client's Signature Div End -->
+            </form>
+        </div>
+        <!-- Footer/SUBMIT Div Start -->
+        <div id="bottomdiv">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+        <!-- Footer/SUBMIT Div End -->
+    </div>
+</body>
+
+</html>
